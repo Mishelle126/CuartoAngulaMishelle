@@ -6,7 +6,7 @@
       price:number;
       description:string;
       category:CategoryModel;
-      images:string;
+      images:string[];
   }
   
   export interface CreateProductDto extends Omit<ProductModel, 'id' | 'category'>{
