@@ -15,3 +15,4 @@
   export interface UpdateProductDto extends Partial<ProductModel>{
       categoryId?:number;
   }
+  //Mishelle Abendaño
